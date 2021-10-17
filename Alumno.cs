@@ -40,7 +40,7 @@ namespace Herencia
             matricula = "";
             especialidad = "";
         }
-        public Alumno(string nombre, string edad, string matricula, string especialidad) : base()
+        public Alumno(string nombre, string FechaN, string matricula, string especialidad) : base()
         {
             this.matricula = matricula;
             this.especialidad = especialidad;
@@ -51,7 +51,7 @@ namespace Herencia
        
         public override string ToString()
         {
-            return "Nombre:"+ Nombre+ "Edad:"+ Edad+ "Matricula:"+ matricula+ "Especialidad: "+ especialidad;
+            return "Nombre:"+ Nombre+ "Fecha de nacimiento:"+ FechaN + "Matricula:"+ matricula+ "Especialidad: "+ especialidad;
         }
 
     }
