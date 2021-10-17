@@ -9,7 +9,7 @@ namespace Herencia
     class Persona
     {
         private string nombre;
-        private string edad;
+        private string FechaN;
 
         public string Nombre
         {
@@ -23,26 +23,26 @@ namespace Herencia
             }
         }
 
-        public string Edad
+        public string FechaN
         {
             get
             {
-                return edad;
+                return FechaN;
             }
             set
             {
-                edad = value;
+                FechaN = value;
             }
         }
 
         public Persona()
         {
             Nombre = "";
-            Edad = "";
+            FechaN = "";
         }
         public override string ToString()
         {
-            return "Nombre:"+ nombre+ "Edad:"+ edad;
+            return "Nombre:"+ nombre+ "Fecha de nacimiento :"+ FechaN;
         }
     }
     
