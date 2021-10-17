@@ -20,7 +20,7 @@ namespace Herencia
             a.Nombre = Console.ReadLine();
             Console.WriteLine("");
             Console.WriteLine("Edad :");
-            a.Edad = Console.ReadLine();
+            a.FechaN = Console.ReadLine();
 
             Console.WriteLine("");
             Console.WriteLine("");
@@ -30,7 +30,7 @@ namespace Herencia
             b.Nombre = Console.ReadLine();
             Console.WriteLine("");
             Console.WriteLine("Edad :");
-            b.Edad = Console.ReadLine();
+            b.FechaN = Console.ReadLine();
             Console.WriteLine("");
             Console.WriteLine("Matricula:");
             b.Matricula = Console.ReadLine();
